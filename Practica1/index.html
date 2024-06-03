@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="body">
+    <section class="section-md-width">
+        <div class="space">
+            <h1 class="title">Jose Zamora Rivas</h1>
+            <h3 class="subtitle">Bach. y Lic. Informática y Tecnología Multimedia</h3>
+        </div>
+
+        <div class="space">
+            <h3 class="word">Gustos</h3>
+            <p class="description">Jugar videojuegos, comer chifrijo y vestir de negro</p>
+        </div>
+
+        <div class="space">
+            <h3 class="word">Lugares Favoritos</h3>
+            <p class="description">Monteverde, San Ramón, Esparza, San Pedro</p>
+        </div>
+
+        <div class="space">
+            <h3 class="word">Información de contacto</h3>
+            <p class="description">+506 8536-5138</p>
+            <p> <a href="mailto:jose.totto1010@gmail.com" target="_blank">jose.totto1010@gmail.com</a> </p>
+            <img class="picture" src="./imgs/foto.jpg" alt="">
+        </div>
+        <style>
+            table {
+             width: 100%;
+             border-collapse: collapse;
+            }
+            table, th, td {
+                border: 1px solid black;
+            }
+            th, td {
+                padding: 8px;
+                text-align: left;
+                position: relative;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+            img.icon{
+                width: 20px;
+                height: auto;
+                vertical-align: middle;
+                margin-right: 8px;
+            }
+        </style>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Autor</th>
+                        <th>Obra</th>
+                        <th>Año de creación</th>
+                        <th>Localización</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Miguel Angel</td>
+                        <td><a href="https://es.wikipedia.org/wiki/La_creación_de_Adán" target="_blank">La Creación</a></td>
+                        <td>1511</td>
+                        <td><img src="icons/vatican.jpg" alt="vatican" class="icon">El Vaticano</td>
+                    </tr>
+                    <tr>
+                        <td>Van Gogh</td>
+                        <td><a href="https://es.wikipedia.org/wiki/La_noche_estrellada" target="_blank">La Noche Estrellada</a></td>
+                        <td>1889</td>
+                        <td><img src="icons/usa.png" alt="usa" class="icon">Estados Unidos</td>
+                    </tr>
+                    <tr>
+                        <td>Goya</td>
+                        <td><a href="https://es.wikipedia.org/wiki/El_aquelarre_(1798)" target="_blank">El Aquelarre</a></td>
+                        <td>1798</td>
+                        <td><img src="icons/spain.png" alt="spain" class="icon">España</td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+</body>
+</html>

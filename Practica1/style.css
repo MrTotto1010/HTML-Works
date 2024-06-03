@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.section-md-width{
+max-width: 720px;
+background-color: rgb(170, 193, 249);
+
+box-shadow: 0 16px 32px;
+}
+
+.space{
+padding: 1rem;
+}
+
+.container{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.title{
+font-size: 5rem;
+text-decoration: underline;
+}
+
+.subtitle{
+font-size: 1.5rem;
+
+}
+
+.word{
+font-size: 2rem;
+}
+
+.description{
+font-size: 1.5rem;
+}
+
+.picture{
+width: 50%;
+margin-top: 1rem;
+margin-bottom: 1rem;
+box-shadow: 0 8px 16px;
+}
